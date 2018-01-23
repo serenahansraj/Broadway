@@ -3,9 +3,16 @@
   font-family: Helvetica;
 }
 
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
+
 .heading {
   color: white;
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -36,4 +43,8 @@ h3 {
 a {
   font-size: 18px;
   color: white;
+}
+
+.last {
+  padding-bottom: 15px;
 }
